@@ -1,7 +1,9 @@
 .headerLogo{
  color:#ee82ee;
+ background-color:#0000;
 }
 .headerList{
  list-style: none;
  float: left;
 }
+
