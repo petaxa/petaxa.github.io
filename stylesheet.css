@@ -2,7 +2,7 @@
  color:#ee82ee;
  background-color:#0001;
 }
-.headerList{
+ul{
  list-style: none;
  float: left;
 }
