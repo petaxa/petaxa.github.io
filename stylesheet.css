@@ -2,9 +2,8 @@
  color:#ee82ee;
  background-color:#0001;
 }
-ul{
- list-style: none;
-}
 li{
-  float: left;
+ list-style: none;
+ background-color: #008b8b;
+ float: left;
 }
