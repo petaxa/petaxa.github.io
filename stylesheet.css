@@ -4,5 +4,7 @@
 }
 ul{
  list-style: none;
- float: left;
+}
+li{
+  float: left;
 }
