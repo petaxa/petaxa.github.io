@@ -1,9 +1,12 @@
 .headerLogo{
  color:#ee82ee;
- background-color:#0000;
+ background-color:#0001;
 }
 .headerList{
  list-style: none;
  float: left;
 }
-
+.aiueo{
+  list-style: none;
+  float:left;
+}
