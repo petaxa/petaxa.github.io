@@ -1,3 +1,7 @@
-p{
- color:#800080;
+.header logo{
+ color:#ee82ee;
+}
+li{
+ list-style:none;
+ floot:left;
 }
