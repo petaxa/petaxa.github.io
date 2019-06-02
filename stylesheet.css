@@ -2,8 +2,11 @@
  color:#ee82ee;
  background-color:#0001;
  float:left;
+ font-size: 36px;
+ padding: 20px 40px;
 }
 li{
  list-style: none;
  float: left;
+ padding: 33px 20px;
 }
