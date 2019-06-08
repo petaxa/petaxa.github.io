@@ -31,5 +31,15 @@ header{
 }
 
 .main h3{
-  border-bottom:4px solid #333; 
+  border-bottom:4px solid #333;
+  padding:10px;
+}
+
+.contents-item img{
+  width:240px;
+  height:240px;
+}
+
+.contents-item{
+  font-size:24px;
 }
