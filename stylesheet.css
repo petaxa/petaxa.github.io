@@ -43,7 +43,6 @@ header{
 
 .contents-item li{
   font-size:24px;
-  color:#000;
   float: left;
 }
 
@@ -59,4 +58,8 @@ header{
 .main p{
   size:90px;
   margin-left:40px;
+}
+
+.contents-item br{
+  color:#000;
 }
