@@ -51,7 +51,7 @@ header{
   opacity:1;
 }
 
-.top-wrapper{
+.top-wrapper,.main{
   background-image: url("images/tolbanaimg.png");
   background-size:cover;
 }
