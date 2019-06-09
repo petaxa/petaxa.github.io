@@ -48,3 +48,7 @@ header{
   background-color:#0000ff;
   color:#fffafa;
 }
+
+.contents-item:hover{
+  opacity:1;
+}
