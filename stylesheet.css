@@ -41,10 +41,10 @@ header{
   opacity:0.7;
 }
 
-.contents-item p{
+.contents-item li{
   font-size:24px;
-  background-color:#0000ff;
   color:#fffafa;
+  float: left;
 }
 
 .contents-item img:hover{
@@ -54,4 +54,9 @@ header{
 .main{
   background-image: url("images/tolbanaimg.png");
   background-size:cover;
+}
+
+.main p{
+  size:90px;
+  margin-left:40px;
 }
