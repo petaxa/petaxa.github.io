@@ -44,6 +44,7 @@ header{
 .contents-item li{
   font-size:24px;
   float: left;
+  background-color:#000;
 }
 
 .contents-item img:hover{
