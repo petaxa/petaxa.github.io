@@ -28,6 +28,7 @@ header{
 .main p{
   border-bottom:4px solid #333;
   padding:10px;
+  font-size:60px;
 }
 
 .main img{
@@ -39,7 +40,7 @@ header{
 .main li{
   font-size:24px;
   float: left;
-  background-color:#000;
+  background-color:#ee33ee;
   list-style-type: none;
 }
 
@@ -50,4 +51,5 @@ header{
 .main{
   background-image: url("images/tolbanaimg.png");
   background-size:cover;
+  height:450;
 }
