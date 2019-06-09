@@ -33,7 +33,7 @@ header{
 .main h3{
   border-bottom:4px solid #333;
   padding:10px;
-  background-image: url(images/tolbanaimg.png);
+  background-image: url("images/tolbanaimg.png");
   background-size:cover;
 }
 
