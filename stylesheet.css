@@ -47,7 +47,7 @@ header{
   color:#fffafa;
 }
 
-.contents-item:hover{
+.contents-item img:hover{
   opacity:1;
 }
 
