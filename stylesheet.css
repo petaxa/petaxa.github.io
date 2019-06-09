@@ -28,6 +28,8 @@ header{
 .contents-item{
   float:left;
   margin-right:40px;
+  background-image: url("images/tolbanaimg.png");
+  background-size:cover;
 }
 
 .main h3{
@@ -52,8 +54,7 @@ header{
 }
 
 .main{
-  background-image: url("images/tolbanaimg.png");
-  background-size:cover;
+
 }
 
 .main p{
@@ -62,5 +63,4 @@ header{
 }
 
 .contents-item br{
-  color:#000;
 }
