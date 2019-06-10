@@ -29,6 +29,11 @@ header{
   border-bottom:4px solid #333;
 }
 
+.contents-item{
+  float:left;
+
+}
+
 .contents-item img{
   width:240px;
   height:240px;
@@ -48,4 +53,6 @@ header{
 }
 
 .contents-item p{
+  background-color: red;
+  color:#fff;
 }
