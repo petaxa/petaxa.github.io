@@ -25,10 +25,8 @@ header{
   float:left;
  }
 
-.main p{
+.main h2{
   border-bottom:4px solid #333;
-  padding:10px;
-  font-size:60px;
 }
 
 .main img{
@@ -40,16 +38,19 @@ header{
 .main li{
   font-size:24px;
   float: left;
-  background-color:#ee33ee;
   list-style-type: none;
 }
 
-.contents-item img:hover{
+.main img:hover{
   opacity:1;
 }
 
 .main{
   background-image: url("images/tolbanaimg.png");
   background-size:cover;
-  height:450;
+  height:450px;
+}
+
+.contents-text li{
+  background-color: #00ff7f;
 }
