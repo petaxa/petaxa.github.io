@@ -31,7 +31,7 @@ header{
 
 .contents-item{
   float:left;
-
+　margin-left: 30px;
 }
 
 .contents-item img{
@@ -55,4 +55,5 @@ header{
 .contents-item p{
   background-color: red;
   color:#fff;
+  margin-top: 0px;
 }
