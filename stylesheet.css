@@ -54,4 +54,9 @@ header{
 .contents-text li{
   background-color: #00ff7f;
   border-radius: 50px;
+  float: left;
+}
+
+.contents-images{
+  float: left;
 }
