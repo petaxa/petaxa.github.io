@@ -31,7 +31,7 @@ header{
 
 .contents-item{
   float:left;
-　margin: 30px;
+　margin-left: 30px;
 }
 
 .contents-item img{
@@ -49,11 +49,12 @@ header{
 .main{
   background-image: url("images/tolbanaimg.png");
   background-size:cover;
-  height:450px;
+  height:480px;
 }
 
 .contents-item p{
   background-color: red;
   color:#fff;
   margin-top: 0px;
+  height:60px;
 }
