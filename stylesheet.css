@@ -30,6 +30,7 @@ header{
 }
 
 .contents-item{
+  width:240px;
   float:left;
 　margin-left: 30px;
 }
