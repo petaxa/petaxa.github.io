@@ -32,6 +32,9 @@ header{
 .contents-item{
   text-align: center;
   position: relative;
+  position: absolute;
+  top:90px;
+  float:left;
 }
 
 .contents-item img{
@@ -56,6 +59,4 @@ header{
   margin-top: 0px;
   height:30px;
   font-size: 50px;
-  position: absolute;
-  top:90px;
 }
