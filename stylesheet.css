@@ -32,18 +32,13 @@ header{
 .contnts{
   position: relative;
   text-align: center;
-}
-
-.contents-item{
-  position: absolute;
-  top:90px;
   float:left;
 }
 
-.contents-item img{
+.contents-item{
   width:240px;
   height:240px;
-  opacity:0.7;
+  opacity:0.9;
 }
 
 
@@ -62,4 +57,6 @@ header{
   margin-top: 0px;
   height:30px;
   font-size: 50px;
+  position: absolute;
+  top:90px;
 }
