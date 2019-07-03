@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <title>Progate</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <!-- ここからHTMLを書き始めてください -->
+    <!-- headerたち -->
     <header>
     <div class="header-logo">
       Progate
@@ -19,12 +22,19 @@
       </ul>
     </div>
     </header>
+    <!-- headerおしまい -->
+
+    <!-- 大きな見出し -->
     <div class="top-wrapper">
       <h1>HELLO WORLD<span>.</span></h1>
       <h2>プログラミングの世界へようこそ</h2>
     </div>
+    <!-- 見出しおしまい -->
+
+    <!-- meinはじまり -->
     <div class="main">
        <h2>学べるレッスン</h2>
+    <div class="motojime">
       <div class="contents">
        <div class="contents-item">
           <img src="images/★4【キラキライースター】シリカのコピー.png">
@@ -41,8 +51,23 @@
        <div class="contents-item">
          <img src="images/easter asuna.png">
          <p>asuna</p>
+      </div>
        </div>
      </div>
     </div>
+
+    <!-- モーダル -->
+    <div class="signup-modal-wrapper" id="signup-modal">
+    <div class="modal" id="test-modal">
+      <div id="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+     <div class="text">
+       <p>Hello</p>
+       <p>I'm tempest</p>
+     </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
   </body>
 </html>
