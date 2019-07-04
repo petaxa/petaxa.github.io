@@ -9,90 +9,117 @@
   </head>
   <body>
     <!-- ここからHTMLを書き始めてください -->
-    <!-- headerたち -->
+<!-- headerたち -->
     <header>
+
     <div class="header-logo">
-      Progate
+      tempest
     </div>
-    <div class="header-list">
-      <ul>
-        <li>プログラミングとは</li>
-        <li>学べるレッスン</li>
-        <li>お問い合わせ</li>
-      </ul>
+
+    <div class="header-bar" id="bars">
+      <i class="fa fa-bars"></i>
     </div>
+
     </header>
-    <!-- headerおしまい -->
+<!-- headerおしまい -->
 
-    <!-- 大きな見出し -->
-    <div class="top-wrapper">
-      <h1>HELLO WORLD<span>.</span></h1>
-      <h2>プログラミングの世界へようこそ</h2>
-    </div>
-    <!-- 見出しおしまい -->
 
-    <!-- meinはじまり -->
+<!-- topはじまり -->
+　　 <div class="top" id="top">
+　　    <p class="top-first top-text">HELLO</p>
+       <p class="top-second top-text">WORLD</p>
+　　 </div>
+<!-- topおしまい -->
+
+
+<!-- meinはじまり -->
     <div class="main">
-       <h2>学べるレッスン</h2>
+       <h2>activities</h2>
     <div class="motojime">
-      <div class="contents" id="silica">
+      <!-- saoif -->
+      <div class="contents" id="saoif">
        <div class="contents-item">
-          <img src="images/★4【キラキライースター】シリカのコピー.png">
-          <p>silica</p>
+          <img src="images/saoif-top.jpeg">
+          <p>SAOIF</p>
        </div>
      </div>
-     <div class="contents" id="kirito">
+     <!-- progate -->
+     <div class="contents" id="progate">
        <div class="contents-item">
-         <img src="images/rabbit kirit.png">
-         <p>kirito</p>
+         <img src="images/progate-logo.png">
+         <p>Progate</p>
        </div>
+     <!-- bicycle -->
      </div>
-     <div class="contents" id="asuna">
+     <div class="contents" id="bicycle">
        <div class="contents-item">
-         <img src="images/easter asuna.png">
-         <p>asuna</p>
+         <img src="images/bike-logo.png">
+         <p>bicycle</p>
       </div>
        </div>
-     </div>
-     <div class="next">
-
      </div>
     </div>
 
     <!-- モーダル -->
-    <!-- silicaのモーダル -->
+    <!-- saoifのモーダル -->
     <div class="signup-modal-wrapper" id="signup-modal">
-    <div class="modal" id="silica-modal">
+    <div class="modal" id="saoif-modal">
       <div class="close-modal">
         <i class="fa fa-2x fa-times"></i>
       </div>
      <div class="text">
-       <p>Hello</p>
-       <p>I'm Silica</p>
+       <p>GUILD:SilverRabbit</p>
+       <p>第2回ギルドランキング３位</p>
+       <p>熟練度がんばります。</p>
      </div>
     </div>
-    <!-- kiritoのモーダル -->
-    <div class="modal" id="kirito-modal">
+    <!-- progateのモーダル -->
+    <div class="modal" id="progate-modal">
       <div class="close-modal">
         <i class="fa fa-2x fa-times"></i>
       </div>
      <div class="text">
-       <p>Hello</p>
-       <p>I'm Kirito</p>
+       <img class="progate-title" src="images/Progate-title.jpg">
+       <p>HTML,CSS JavaScript jQuery完遂。</p>
+       <p>Python Rubyがんばります。</p>
      </div>
     </div>
-    <!-- asunaのモーダル -->
-    <div class="modal" id="asuna-modal">
+    <!-- bicycleのモーダル -->
+    <div class="modal" id="bicycle-modal">
       <div class="close-modal">
         <i class="fa fa-2x fa-times"></i>
       </div>
      <div class="text">
-       <p>Hello</p>
-       <p>I'm Asuna</p>
+       <p>LOUIS GARNEAU.</p>
+       <p>I'll go to Tokyo by bike.</p>
      </div>
     </div>
 
+　　<!-- menuのモーダル -->
+    <div class="menu" id="menu-modal">
+      <a class="menu-contents" href="#top">TOP</a>
+      <p class="menu-contents">about</p>
+      <p class="menu-contents" id="contact-btn">contact</p>
+    </div>
+     <!-- contactFormのモーダル -->
+     <div class="contact-form">
+       <h2>CONTACT FORM</h2>
+       <div class="close-modal" id="close-contact">
+         <i class="fa fa-2x fa-times"></i>
+       </div>
+       <a class="twitter" href=""><i class="fa fa-twitter"></i>Twitter</a>
+       <p>メールアドレス</p>
+       <input>
+       <p>ご要望</p>
+       <textarea rows="8" cols="50"></textarea>
+       <p>全てご記入ください</p>
+       <input class="send" type="submit" value="送信">
+     </div>
+
+
+
   </div>
   <script src="script.js"></script>
+
   </body>
 </html>

@@ -1,28 +1,51 @@
 
+$('.top-text').slideDown(1250);
 
-$('#silica').click(function(){
-  $('#silica-modal').slideDown();
-  if($(this).find('contents')){
-    $('.modal').slideUp();
-  }
+
+
+
+
+
+
+
+// modal
+// contents-modal
+$('#saoif').click(function(){
+  $('.motojime').fadeOut();
+  $('#saoif-modal').slideDown();
+});
+$('#progate').click(function(){
+  $('.motojime').fadeOut();
+  $('#progate-modal').slideDown();
 });
 
-$('#kirito').click(function(){
-  $('#kirito-modal').slideDown();
-  if($(this).find('contents').click()){
-    $('.modal').slideUp();
-  }
+$('#bicycle').click(function(){
+  $('.motojime').fadeOut();
+  $('#bicycle-modal').slideDown();
 });
 
-$('#asuna').click(function(){
-  $('#asuna-modal').slideDown();
-  if($(this).find('contents').click()){
-    $('.modal').slideUp();
-  }
-});
-
-var aiueo=$(this).find('contents').click();
 
 $('.close-modal').click(function(){
+  $('.motojime').fadeIn();
   $('.modal').slideUp();
+});
+// おしまい
+
+// menu-modal
+$('#bars').click(function(){
+  if($('#bars').hasClass('open')){
+    $('#menu-modal').slideDown(150);
+    $('#bars').removeClass('open');
+  } else{
+    $('#menu-modal').slideUp(300);
+    $('#bars').addClass('open');
+  }
+});
+
+$('#contact-btn').click(function(){
+  $('.contact-form').fadeIn();
+});
+
+$('#close-contact').click(function(){
+  $('.contact-form').fadeOut();
 });
