@@ -37,15 +37,15 @@
   }
   #saoif-modal{
     position: absolute;
-    top:130%;
+    top:160%;
   }
   #progate-modal{
     position: absolute;
-    top:180%;
+    top:200%;
   }
   #bicycle-modal{
     position: absolute;
-    top:230%;
+    top:280%;
   }
   .fa-times{
     color:black;
