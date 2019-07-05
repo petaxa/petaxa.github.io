@@ -101,6 +101,17 @@ header{
   font-size: 50px;
 }
 
+/* footer */
+footer{
+  /* background-color: blue; */
+}
+
+.tem-logo{
+  font-size: 40px;
+  margin-left: 50px;
+　color:#fff;
+}
+
 /* modal */
 
 /* contents-modal */
@@ -172,6 +183,8 @@ header{
   background-color: #fff;
   border-radius: 4px;
   margin-top:80px;
+  padding:0;
+  height:55px;
 }
 
 #contact-btn{
