@@ -17,11 +17,30 @@
   }
   .main h2{
     font-size:50px;
+    border-bottom:4px solid #fff;
     color:#fff;
   }
   .contents-item p{
     color:white;
   }
+  /* modal */
+  /* contents-modal */
+  .contents{
+    
+  }
+  .modal{
+    margin-left:5%;
+    background-color:rgba(255,255,255,0.7);
+    position: absolute;
+    top:15%;
+  }
+  .modal p{
+    color:#000;
+  }
+  .fa-times{
+    color:black;
+  }
+  /* menu-modal */
   .menu{
     margin-left: 40%;
     position: absolute;
