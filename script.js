@@ -44,8 +44,10 @@ $('#bars').click(function(){
 
 $('#contact-btn').click(function(){
   $('.contact-form').fadeIn();
+  $('#menu-modal').slideUp(300);
 });
 
 $('#close-contact').click(function(){
   $('.contact-form').fadeOut();
+  $('#menu-modal').slideDown(150);
 });

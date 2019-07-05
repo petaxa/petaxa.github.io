@@ -29,7 +29,8 @@ header{
 }
 
 .header-logo{
-  padding:10px 40px;
+  padding:10px 0;
+  margin-left:40px;
   font-size:20px;
   float:left;
  }
@@ -140,8 +141,10 @@ header{
 
 /* menu-modal */
 .menu{
+  width:180px;
+  height:360px;
   margin-top:3px;
-  margin-left:83%;
+  margin-left:80%;
   padding: 25px;
   background-color:rgba(0,0,0,0.8);
   border-radius: 10px;
@@ -152,9 +155,31 @@ header{
 }
 .menu-contents{
    font-size: 35px;
-   margin:8px;
-   color:white
+   color:#000;
+   display: block;
+   text-align: center;
+   cursor: pointer;
 }
+
+#top-btn{
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top:8px;
+}
+
+#about-btn{
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top:80px;
+}
+
+#contact-btn{
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top:80px;
+  margin-bottom:8px;
+}
+
 
 .contact-form{
   width:550px;

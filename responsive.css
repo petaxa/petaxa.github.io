@@ -1,5 +1,32 @@
 @media(max-width:670px){
   header{
-    height:240px;
+    height:75px;
+  }
+  .header-logo{
+    font-size: 30px;
+    margin-left:5px;
+    line-height: 50px;
+  }
+  .header-bar{
+    line-height: 60px;
+  }
+  .menu{
+    margin-left: 40%;
+    position: absolute;
+    top:75px;
+    position: fixed;
+  }
+  .contact-form{
+    width:350px;
+    margin-left:8%;
+  }
+  .contact-form h2{
+    font-size:30px;
+  }
+  input,textarea{
+    font-size:15px;
+    width:300px;
+    border-radius: 5px;
+    border:1px solid #dee7ec;
   }
 }
