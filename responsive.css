@@ -10,6 +10,18 @@
   .header-bar{
     line-height: 60px;
   }
+  .main{
+    background-image: none;
+    background-color: #000;
+    height:1300px;
+  }
+  .main h2{
+    font-size:50px;
+    color:#fff;
+  }
+  .contents-item p{
+    color:white;
+  }
   .menu{
     margin-left: 40%;
     position: absolute;
