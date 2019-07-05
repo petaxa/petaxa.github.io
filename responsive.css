@@ -35,6 +35,18 @@
   .modal p{
     color:#000;
   }
+  #saoif-modal{
+    position: absolute;
+    top:110%;
+  }
+  #progate-modal{
+    position: absolute;
+    top:160%;
+  }
+  #bicycle-modal{
+    position: absolute;
+    top:210%;
+  }
   .fa-times{
     color:black;
   }
