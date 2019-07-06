@@ -111,6 +111,11 @@ footer{
   margin-left: 50px;
 }
 
+.footer-list{
+  font-size:20px;
+
+}
+
 /* modal */
 
 /* contents-modal */
@@ -127,11 +132,28 @@ footer{
   display:none;
 }
 
+.modal h2{
+  color:white;
+  text-align: center;
+  font-size: 40px;
+}
+
 .modal p{
   color:white;
   text-align: center;
   margin-top: 30px;
   font-size:25px;
+  margin-bottom: 13px;
+}
+
+.modal a{
+  font-size:25px;
+  color:rgba(10,10,10,0.9);
+  margin-left: 26%;
+  background-color: #b0e0ec;
+  border-radius: 12px;
+  padding:10px 20px;
+
 }
 
 .fa-times{
@@ -139,13 +161,6 @@ footer{
   top:12px;
   right: 10px;
   color:white;
-}
-
-.progate-title{
-  width:180px;
-  border-radius: 10px;
-  margin-top:3px;
-  margin-left:23%;
 }
 
 /* おしまい */
