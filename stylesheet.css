@@ -27,6 +27,7 @@ header{
   line-height: 30px;
   float:right;
   margin-right: 40px;
+  cursor: pointer;
 }
 
 .header-logo{
@@ -80,6 +81,7 @@ header{
 
 .contents-item{
   diplay:flex;
+  cursor: pointer;
 }
 
 .contents-item img{
@@ -119,6 +121,7 @@ footer a{
   font-size:35px;
   line-height:400px;
   color:white;
+  cursor: pointer;
 }
 
 /* modal */
