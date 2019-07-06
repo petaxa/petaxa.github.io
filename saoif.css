@@ -1,0 +1,92 @@
+
+.saoif-main{
+  margin-left:20px;
+  margin-right: 10px;
+  display:none;
+}
+
+.guild-info span{
+  color:#ec425d;
+}
+
+.guild{
+  background-color: silver;
+  border-radius: 5px;
+}
+
+.guild-info h2{
+  font-size:60px;
+}
+
+.guild-info p{
+  font-size: 30px;
+  margin-left:30%;
+}
+
+.guild-info img{
+  width:70%;
+  margin-left: 10px;
+}
+
+.guild-text{
+
+}
+
+.if-text-wrapper{
+  font-size:40px;
+  margin:10px;
+}
+
+.if-main-text{
+  font-size:25px;
+  padding-bottom: 20px;
+}
+
+.player-info{
+  margin-top:30px;
+  background-color: #e3a6e7;
+  border-radius: 5px;
+}
+
+.player-info img{
+  width:70%;
+  margin-left: 10px;
+}
+
+.player-name{
+  font-size:60px;
+}
+
+.player{
+  font-size:30px;
+  margin-top:15px;
+}
+.player-text{
+  font-size:20px;
+  margin-left: 10%;
+}
+
+.player-bottom{
+  padding-bottom: 30px;
+}
+
+footer{
+  margin-top:20px;
+  display:flex;
+  background-color:#505683;
+}
+
+footer a{
+  display:block;
+}
+
+.if-footer-left{
+  margin-left: 5%;
+}
+
+.footer-list{
+  width:25%;
+  font-size:35px;
+  line-height:400px;
+  color:white;
+}

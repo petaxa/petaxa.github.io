@@ -54,14 +54,11 @@ header{
   margin-bottom: 15px;
 }
 
-.top-second{
-
-}
 /* main */
 .main{
   background-image: url("images/tolbanaimg.png");
   background-size:cover;
-  height:600px;
+  height:800px;
   z-index: 2;
 }
 
@@ -101,19 +98,27 @@ header{
   font-size: 50px;
 }
 
+
 /* footer */
 footer{
-  /* background-color: blue; */
+  margin-top:20px;
+  display:flex;
+  background-color:#505683;
 }
 
-.tem-logo{
-  font-size: 40px;
-  margin-left: 50px;
+footer a{
+  display:block;
+}
+
+.if-footer-left{
+  margin-left: 5%;
 }
 
 .footer-list{
-  font-size:20px;
-
+  width:25%;
+  font-size:35px;
+  line-height:400px;
+  color:white;
 }
 
 /* modal */
@@ -168,7 +173,7 @@ footer{
 /* menu-modal */
 .menu{
   width:180px;
-  height:360px;
+  height:cover;
   margin-top:3px;
   margin-left:80%;
   padding: 25px;
@@ -187,25 +192,37 @@ footer{
    cursor: pointer;
 }
 
-#top-btn{
+.top-btn{
   background-color: #fff;
   border-radius: 4px;
   margin-top:8px;
 }
 
-#about-btn{
+.saoif-btn{
   background-color: #fff;
   border-radius: 4px;
-  margin-top:80px;
+  margin-top:60px;
   padding:0;
   height:55px;
 }
 
-#contact-btn{
+.progate-btn{
   background-color: #fff;
   border-radius: 4px;
-  margin-top:80px;
+  margin-top:60px;
+}
+
+.bicycle-btn{
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top:60px;
+}
+
+.contact-btn{
+  background-color: #fff;
+  border-radius: 4px;
   margin-bottom:8px;
+  margin-top:60px;
 }
 
 
@@ -224,7 +241,8 @@ footer{
 }
 
 .contact-form h2{
-  font-size:40px
+  font-size:40px;
+  padding-top:10px;
 }
 
 .contact-form p{
@@ -246,11 +264,4 @@ textarea{
 .send{
   background-color:#dee7ec;
   margin-bottom:15px;
-}
-
-.twitter{
-  background-color: #00acee;
-  color:white;
-  padding:10px 15px;
-  border-radius: 5px;
 }

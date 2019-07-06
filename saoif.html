@@ -5,6 +5,7 @@
   <title>saoif</title>
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="saoif.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -16,7 +17,7 @@
         $(document).ready(function(){
             $('.slider').bxSlider({
                 auto: true,
-                pause: 5000,
+                pause: 2500,
             });
         });
 </script>
@@ -26,15 +27,73 @@
       <div class="header-logo">
         <h2>SAOIF</h2>
       </div>
-      <div class="header-bar" id="bars">
+      <div class="header-bar bars">
         <i class="fa fa-bars"></i>
       </div>
     </header>
     <div class="slider">
-        <img src="iamge/SdF.png" ="500" height="300" alt="">
-        <img src="image/SLRB1st.PNG" width="500" height="300" alt="">
-        <img src="image/guildEve.png" width="500" height="300" alt="">
-        <img src="image/SLRB-senapic.png" width="500" height="300" alt="">
+        <img src="images/SdF.PNG" width="500" height="750" alt="">
+        <img src="images/SLRB1st.PNG" width="500" height="750" alt="">
+        <img src="images/guildEve.png" width="500" height="750" alt="">
+        <img src="images/SLRB-senapic.png" width="500" height="750" alt="">
     </div>
+
+    <div class="saoif-main">
+      <div class="guild">
+        <div class="guild-info">
+          <h2><span>GUILD:</span>SilverRabbit</h2>
+          <p>since 2017.12.8~</p>
+        </div>
+        <div class="guild-text">
+          <img src="images/guild-room.PNG">
+          <p class="if-text-wrapper">リリースから８日で創設された老舗ギルド</p>
+          <p class="if-main-text">実力はさることながらネームバリューも超一流</p>
+          <p class="if-main-text">ギルド外からはピリピリしていると思われているが、本当はとってもアットホーム</p>
+        </div>
+      </div>
+      <div class="player-info">
+          <p class="player-name"><span>PLAYER:</span>てんぺすと。</p>
+      <div class="player-text">
+          <img src="images/tempest-face.PNG" alt="">
+          <p class="player"><span>メイン武器：</span>短剣</p>
+          <p class="player-text">毒、出血、少刻印などでがんばっております。</p>
+          <p class="player"><span>武器熟練度：</span>all40↑</p>
+          <p class="player-text player-bottom">一応リリース日からやっておりますがクソ雑魚なんで精進します。</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a class="footer-list if-footer-left" href="index.html">TOP</a>
+      <a class="footer-list" href="saoif.html">SAOIF</a>
+      <a class="footer-list" href="progate.html">Peogate</a>
+      <a class="footer-list" href="bicycle.html">Bicycle</a>
+      <a class="footer-list footer-contact">contact</p>
+    </footer>
+
+
+
+<!-- menu -->
+<div class="menu menu-modal">
+  <a class="menu-contents top-btn" href="index.html">TOP</a>
+  <a class="menu-contents saoif-btn" href="#top">saoif</a>
+  <a class="menu-contents progate-btn" href="progate.html">Progate</a>
+  <a class="menu-contents bicycle-btn" href="bicycle.html">Bicycle</a>
+  <p class="menu-contents contact-btn" id="contact-btn">contact</p>
+</div>
+
+<!-- contact-form -->
+<div class="contact-form">
+  <h2>CONTACT FORM</h2>
+  <div class="close-modal" id="close-contact">
+    <i class="fa fa-2x fa-times"></i>
+  </div>
+  <p>メールアドレス</p>
+  <input>
+  <p>ご要望</p>
+  <textarea rows="8" cols="50"></textarea>
+  <p>全てご記入ください</p>
+  <input class="send" type="submit" value="送信">
+</div>
+<script src="script.js"></script>
   </body>
 </html>
