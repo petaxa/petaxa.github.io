@@ -106,7 +106,7 @@ header{
 }
 /* footer */
 footer{
-  margin-top:20px;
+  margin-top:0;
   display:flex;
   background-color:#505683;
 }

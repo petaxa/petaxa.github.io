@@ -44,6 +44,7 @@
 
 .player-info{
   margin-top:30px;
+  margin-bottom: 20px;
   background-color: #e3a6e7;
   border-radius: 5px;
 }
@@ -68,18 +69,4 @@
 
 .player-bottom{
   padding-bottom: 30px;
-}
-
-footer{
-  margin-top:20px;
-  display:flex;
-  background-color:#505683;
-}
-
-footer a{
-  display:block;
-}
-
-.if-footer-left{
-  margin-left: 5%;
 }
