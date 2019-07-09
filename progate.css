@@ -1,0 +1,40 @@
+.programming-main{
+  padding-top:50px;
+}
+
+.progate-head{
+  font-size:45px;
+}
+
+.progate-parformance{
+  display: flex;
+  margin-left: 60px;
+}
+
+.progate-text{
+  margin-left: 18px;
+}
+
+.progate-text h2{
+  font-size:45px;
+  margin-top:18%;
+}
+
+.progate-text p{
+  font-size:30px;
+  line-height: 90px;
+  margin-top:0;
+  margin-left: 10px;
+}
+
+.magic-head{
+  font-size:40px;
+}
+.magic img{
+  width:40%;
+}
+
+.magic p{
+  font-size:25px;
+  margin:20px;
+}
